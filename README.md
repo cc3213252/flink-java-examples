@@ -19,3 +19,10 @@ mvn archetype:generate                               \
 4、把需要的pom文件内容拷贝到创建的maven工程来
 
 5、在Run/Debug Configuation里面，把Include Dependencies with Provided scope打上勾
+
+6、注意pom中transformers，需要改一个入口类
+
+## 打包测试
+
+mvn clean package  
+在web页面提交tar文件即可测试  

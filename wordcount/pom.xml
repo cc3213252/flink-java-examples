@@ -141,7 +141,7 @@
                             </filters>
                             <transformers>
                                 <transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
-                                    <mainClass>com.blueegg.StreamingJob</mainClass>
+                                    <mainClass>com.blueegg.WordCount</mainClass>
                                 </transformer>
                             </transformers>
                         </configuration>
