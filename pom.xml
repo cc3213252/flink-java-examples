@@ -12,6 +12,7 @@
         <module>wordcount</module>
         <module>sideoutput</module>
         <module>windowing</module>
+        <module>training</module>
     </modules>
 
 
