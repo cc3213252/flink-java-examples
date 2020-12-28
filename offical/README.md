@@ -6,3 +6,12 @@
 
 https://github.com/apache/flink/tree/master/flink-examples
 https://github.com/zhisheng17/flink-learning  
+
+## 入门练习顺序
+
+wordcount  
+socket  
+
+## 测试socket 
+
+nc -l 11111
