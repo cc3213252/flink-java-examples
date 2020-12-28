@@ -11,6 +11,7 @@ https://github.com/zhisheng17/flink-learning
 
 wordcount  
 socket  
+windowing  
 
 ## 测试socket 
 
