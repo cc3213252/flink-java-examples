@@ -1,0 +1,8 @@
+## 说明
+
+本工程为官网demo简化练习
+
+## 资料
+
+https://github.com/apache/flink/tree/master/flink-examples
+https://github.com/zhisheng17/flink-learning  
