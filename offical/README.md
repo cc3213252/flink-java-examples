@@ -10,6 +10,7 @@ https://github.com/zhisheng17/flink-learning
 ## 入门练习顺序
 
 wordcount  
+twitter  
 socket  
 windowing  
 
