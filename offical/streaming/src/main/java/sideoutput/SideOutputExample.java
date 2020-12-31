@@ -18,7 +18,7 @@ import wordcount.util.WordCountData;
 /*
 * IngestionTime 数据进入flink的时间，无法处理任何无序事件或延迟数据，具有自动分配时间戳和自动生成水印功能
 *
-* 长度大于5的拒绝掉，并打印拒绝的数，最后一次性处理统计数据
+* 长度大于5的拒绝掉，并实时打印拒绝的数，后按事件时间5秒一次处理统计数据
 * */
 public class SideOutputExample {
     private static final OutputTag<String> rejectedWordsTag = new OutputTag<String>("rejected"){};
